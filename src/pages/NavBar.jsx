@@ -16,6 +16,7 @@ function NavBar(){
              <li><Link className="a" to="/Faculty">Faculty</Link></li>
              <li><Link className="a" to="/About">About</Link></li>
              <li><Link className="a" to="/">Home</Link></li>
+             <li><Link className="a" to="/Register">Register</Link></li>
        </ul>
        
     </div>

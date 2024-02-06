@@ -17,9 +17,10 @@ function SignIn() {
           <label>Password</label>
          </div>
         </div>
-        <a href='#pass'>Forgot Password?</a> 
-        <div className='btn'>Login</div> 
-        <div className='btm'>New Student? <span>Sign up</span></div>
+        <a href='#'>Forgot Password?</a> 
+        {/* <div className='btn'>Login</div>  */}
+        <button className="btn">LOGIN</button>
+        <a href='http://localhost:3000/Register' className='btm'>New Student? <span>Sign up</span></a>
         <div className='btm'>New Faculty? <span>Sign up</span></div>
         
     </div>

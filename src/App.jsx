@@ -7,6 +7,7 @@ import Student from "./pages/Student";
 import Faculty from "./pages/Faculty"
 import Login from "./pages/Login";
 import Home from "./pages/Home";
+import Register from "./pages/Register";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="Student" element={<Student />} />
           <Route path="Faculty" element={<Faculty />} />
           <Route path="About" element={<About />} />
+          <Route path="Register" element={<Register />} />
         </Route>
       </Routes>
     </BrowserRouter>

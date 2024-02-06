@@ -140,6 +140,7 @@ ul {
     margin: 0;
     padding: 0;
     height: 60px;
+    z-index: 4;
     /* overflow: hidden; */
     background-color: #090138;
     display: flex;
@@ -151,4 +152,8 @@ ul {
   .random{
     margin-top: 100px;
     color: rgb(0, 47, 107);
+  
+  }
+  .SignUp{
+    margin-top: 200px;
   }
