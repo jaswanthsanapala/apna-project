@@ -7,10 +7,13 @@ import About from "./pages/About";
 import Faculty from "./pages/Faculty"
 import Login from "./pages/Login";
 import Home from "./pages/Home";
+import Register from "./pages/Register";
+
 import Cse from "./components/Faculty/department/Cse";
 import Ce from "./components/Faculty/department/Ce";
 import Ee from "./components/Faculty/department/Ee";
 import Prof from "./components/Faculty/Prof";
+
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
           <Route path="LogOut" element={<LogOut />} />
           <Route path="Login" element={<Login />} />
           <Route path="About" element={<About />} />
+
+          <Route path="Register" element={<Register />} />
+
           <Route path="Faculty" element={<Faculty />}>
 
           <Route path="Cse" element={<Cse />} />
@@ -30,6 +36,7 @@ function App() {
 
            </Route>
           <Route path="ContactUs" element={<ContactUs />} />
+
         </Route>
       </Routes>
     </BrowserRouter>

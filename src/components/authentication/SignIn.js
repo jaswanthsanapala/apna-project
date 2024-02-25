@@ -46,9 +46,16 @@ function SignIn() {
           <label>Password</label>
          </div>
         </div>
+
+        <a href='#'>Forgot Password?</a> 
+        {/* <div className='btn'>Login</div>  */}
+        <button className="btn">LOGIN</button>
+        <a href='http://localhost:3000/Register' className='btm'>New Student? <span>Sign up</span></a>
+
         <p className='forgot'>Forgot Password?</p> 
         <div onClick={storeData} className='btn'>Login</div> 
         <div className='btm'>New Student? <span>Sign up</span></div>
+
         <div className='btm'>New Faculty? <span>Sign up</span></div>
         
     </div>
