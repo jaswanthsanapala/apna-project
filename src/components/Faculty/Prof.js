@@ -1,6 +1,9 @@
 import React from 'react'
 import './prof.css'
-import  CsePorfData from './main';
+// import axios from 'axios';
+import  CseProfData from './main';
+
+
 
 function ProfCard(props){
     return(
@@ -28,13 +31,18 @@ function ProfCard(props){
     );
 }
 
+
 function Prof() {
+
   return (
-    <div className='faculty-page'>
+    <div id='faculty-page' className='faculty-page'>
+        <h1 className='random'>Computer Science and Engineering</h1>
         {
-            CsePorfData.map((item) => {
+            CseProfData.map((item) => {
               return (
                <ProfCard 
+               department ={item.department}
+               key ={item.name}
                name = {item.name} 
                 desig = {item.designation}
                 phone ={item.contact}

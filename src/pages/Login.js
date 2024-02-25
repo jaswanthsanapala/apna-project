@@ -7,8 +7,10 @@ function Login() {
   return (
         <>
         <SignIn />
+
         {/* <SignUp /> */}
         {/* <h2>Kartik</h2> */}
+
         </>
   )
 }
