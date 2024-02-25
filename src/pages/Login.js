@@ -6,7 +6,6 @@ function Login() {
   return (
         <>
         <SignIn />
-        {/* <h2>Kartik</h2> */}
         </>
   )
 }
