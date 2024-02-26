@@ -1,0 +1,108 @@
+.studentCard{
+    width: 30%;
+    border: 1px solid black;
+    background-color: red;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box1{
+    display: flex;
+    width: 100%;
+}
+
+.left{
+    width: 30%;
+}
+
+.right{
+    width: 70%;
+}
+
+.box2{
+    width: 100%;
+}
+
+.style{
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.Link{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+.right-div{
+    border-top: 1px solid white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
+}
+
+.student-img{
+    width: 80%;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: 8px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.prereq,.desc{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.prereq h4,.desc p{
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.studentCard span{
+    color: greenyellow;
+    font-size: large;
+}
+
+.padding{
+    padding: 5px;
+}
+
+.flexcard{
+    display: flex;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+.projectTitle{
+    font-size: xx-large;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+
+@media screen and (max-width: 400px) {
+    .box1 {
+        flex-direction: column;
+    }
+    .studentCard{
+        width: 80%;
+    }
+}
+

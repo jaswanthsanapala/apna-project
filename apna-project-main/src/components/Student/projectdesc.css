@@ -1,0 +1,69 @@
+.background{
+    background-color: rgb(148, 210, 210);
+    font-size: large;
+}
+
+.flex1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.left1{
+    text-align: left;
+    width: 65%;
+}
+
+.right1{
+    width: 25%;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.right1 img{
+    width: 50%;
+}
+
+.projectdesc{
+    text-decoration: underline;
+}
+
+.styleh{
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.button{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: large;
+    background-color: aquamarine;
+}
+
+
+
+
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the scrollbar track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scrollbar handle on hover */
+}
